@@ -4,7 +4,7 @@ import './style.css'
 document.querySelector('#app').innerHTML = `
   <main>
         <h2>Change the context of the chatbot</h2>
-        <input type="text" name="context" id="context" />
+        <textarea name="context" id="context"></textarea>
         <h1>ChatBotGPT</h1>
         <form action="">
             <input type="text" name="message" id="message" />
